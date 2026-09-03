@@ -1,3 +1,7 @@
+Hello, World!
+
+Thank you for taking time to drop in here.
+
 I build AI governance tooling for the awkward stretch between “the model works” and “we can responsibly ship this.”
 
 My work covers safety evaluation, RAG quality, adversarial red teaming, and governance reporting. The things that become very interesting the moment an AI system meets real users, real data, and real regulatory expectations.
@@ -5,8 +9,6 @@ My work covers safety evaluation, RAG quality, adversarial red teaming, and gove
 I’m building a four-project portfolio around common AI governance failure modes. They share the same lightweight, free-tier stack, so the projects are easy to clone, inspect, break, improve, and run without an enterprise API bill.
 
 #### What I work on
-
-[svg](https://github.com/abh1nitsen#what-i-work-on)
 
 * **LLM safety evaluation:** PII detection, hallucination scoring, bias, and toxicity checks using LLM-based evaluation with structured outputs
 * **RAG quality scoring:** faithfulness, answer relevance, context precision, and recall measured against real regulatory documents
@@ -23,8 +25,6 @@ You’ll probably find a mix of complete projects, reusable patterns, and practi
 
 
 #### About me
-
-[svg](https://github.com/abh1nitsen#about-me)
 
 ISB AMPBA. Independent AI consultant.
 
