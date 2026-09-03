@@ -1,22 +1,35 @@
-### Hi, I'm Abhinit
+I build AI governance tooling for the awkward stretch between “the model works” and “we can responsibly ship this.”
 
-I build AI governance tooling. Safety evaluation, RAG quality scoring, red teaming, the parts of an AI system nobody demos but everyone needs before it ships.
+My work covers safety evaluation, RAG quality, adversarial red teaming, and governance reporting. The things that become very interesting the moment an AI system meets real users, real data, and real regulatory expectations.
 
-I run a four-project portfolio, each one tackling a different governance failure mode, all built on the same free-tier stack so anyone can clone and run them without a corporate API budget.
+I’m building a four-project portfolio around common AI governance failure modes. They share the same lightweight, free-tier stack, so the projects are easy to clone, inspect, break, improve, and run without an enterprise API bill.
 
 #### What I work on
 
-- LLM safety evaluation: PII detection, hallucination scoring, bias and toxicity checks, all judged by an LLM with structured output
-- RAG quality scoring: faithfulness, answer relevance, context precision and recall, measured on real regulatory documents
-- Adversarial red teaming: six attack categories tested against Indian regulatory boundaries, jailbreaks, and bias elicitation
-- Governance dashboards: pulling the above into one place a compliance team could actually read
+[svg](https://github.com/abh1nitsen#what-i-work-on)
 
-Every project runs on Groq's free tier, ships with a full pytest suite, and comes with a Colab notebook that mounts Drive, does its own setup, and pushes itself to GitHub. No manual file copying, no half-finished demo that only runs on my machine.
+* **LLM safety evaluation:** PII detection, hallucination scoring, bias, and toxicity checks using LLM-based evaluation with structured outputs
+* **RAG quality scoring:** faithfulness, answer relevance, context precision, and recall measured against real regulatory documents
+* **Adversarial red teaming:** six attack categories covering jailbreaks, bias elicitation, and failure cases grounded in Indian regulatory boundaries
+* **Governance dashboards:** bringing evaluation results together into something a compliance or risk team can read without opening six terminal windows
+
+Each project runs on Groq’s free tier, includes a full pytest suite, and comes with a Colab notebook that handles setup, mounts Drive, and can push the project back to GitHub.
+
+I care a lot about reproducibility. If a project needs three undocumented environment variables, a forgotten local file, and the exact laptop it was written on, its governance value drops pretty quickly.
+
+Alongside the governance work, I’m also experimenting with reusable AI building blocks: RAG pipelines, agent workflows, evaluation skills, and small components that can be adapted across projects instead of rebuilt from scratch.
+
+You’ll probably find a mix of complete projects, reusable patterns, and practical experiments here. The common thread is making AI systems easier to evaluate, govern, and actually use.
+
 
 #### About me
 
-ISB AMPBA. Independent AI consultant. I got tired of "trust me, it's safe" being the entire governance story for most AI deployments, so I started building the parts that could back that claim up with numbers.
+[svg](https://github.com/abh1nitsen#about-me)
 
-Currently deep in the fourth project of this portfolio, a dashboard that aggregates the other three into one governance report. Open to conversations about AI safety tooling, red teaming, or why your RAG pipeline's hallucination rate is probably higher than you think.
+ISB AMPBA. Independent AI consultant.
 
-[LinkedIn](https://www.linkedin.com/in/abhinit-sen-63443015/)
+I became interested in AI governance after seeing how often words like “safe,” “reliable,” and “responsible” appear without much measurement behind them. So I started building tools that turn those claims into tests, scores, failure cases, and reports people can actually inspect.
+
+I’m currently working on the fourth project in the portfolio, a governance dashboard that brings the outputs of the first three into a single report.
+
+Always happy to talk about AI safety evaluation, red teaming, RAG quality, governance tooling, or the surprisingly creative ways retrieval pipelines manage to hallucinate.
